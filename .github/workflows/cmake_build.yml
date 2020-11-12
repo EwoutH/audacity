@@ -147,7 +147,8 @@ jobs:
         # Install required packages
         brew install gettext
         brew link --force gettext
-
+        sudo xcode-select -s /Applications/Xcode_12.2.app/Contents/Developer
+ 
         # Build wxWidgets if needed
         if [ ! -e "${WXWIN}" ]
         then
