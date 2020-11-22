@@ -32,8 +32,8 @@ jobs:
             platform: "x64"
           }
         - {
-            name: "Ubuntu_18.04",
-            os: ubuntu-18.04,
+            name: "Ubuntu_20.04",
+            os: ubuntu-20.04,
             generator: "Unix Makefiles"
           }
         - {
